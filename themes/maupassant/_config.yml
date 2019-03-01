@@ -1,0 +1,84 @@
+fancybox: true ## If you want to use fancybox please set the value to true.
+# duoshuo: xxxxxx
+disqus: xxxxxx
+# gentie: f6ab0f69594c4ca685224fc3908ec771
+google_search: true ## Use Google search, true/false.
+baidu_search: ## Use Baidu search, true/false.
+swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
+tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
+self_search: ## Use a jQuery-based local search engine, true/false.
+google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
+baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
+shareto: true ## If you want to use the share button please set the value to true.
+busuanzi: true
+valine: ## https://valine.js.org
+  enable: true
+  appid: xxx
+  appkey: xxxx
+  notify: false 
+  verify: false 
+  placeholder: Just so so ## Comment box placeholders.
+  avatar: 'mm' ## Gravatar type, see https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
+  pageSize: 10 ## Number of comments per page.
+  guest_info: nick,mail,link ## Attributes of reviewers.hex
+leancloud_visitors:
+  enable:true 
+  appid:xxx
+  appkey:xxx
+menu:
+  - page: home
+    directory: .
+    icon: fa-home
+  - page: archive
+    directory: archives/
+    icon: fa-archive 
+  - page: album
+    # directory: http://album.xxxxxx.cn/
+    directory: instagram/
+    icon: fa-picture-o     
+  - page: about
+    directory: about/
+    icon: fa-user
+  # - page: rss
+  #   directory: atom.xml
+  #   icon: fa-rss
+
+widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
+  - avatar
+  - search
+  - books
+  - category
+  - tag
+##  - recent_posts
+  # - recent_comments
+  - statistic
+##- links
+
+books:
+  - title: oo
+    url: https://xxxxxx.cn/oo/
+  - title: 
+    url: https://xxxxxx.cn/thinking-in-java/
+  - title: 
+    url: https://xxxxxx.cn/spring-boot-demo/
+
+
+# links:
+#   - title: site-name1
+#     url: http://www.example1.com/
+#   - title: site-name2
+#     url: http://www.example2.com/
+#   - title: site-name3
+#     url: http://www.example3.com/
+
+# Static files
+js: js
+css: css
+canvas_nest:
+  enable: true
+  color: ## RGB value of the color, e.g. "100,99,98"
+  opacity: ## Transparency of lines, e.g. "0.7"
+  zIndex: ## The z-index property of the background, e.g. "-1"
+  count: ## Quantity of lines, e.g. "150"
+# Theme version
+version: 0.0.1
