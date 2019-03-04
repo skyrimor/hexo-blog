@@ -1,4 +1,4 @@
-﻿#! /bin/bash
+#! /bin/bash
 # 使用git输入命令 sh intstall.sh
 # 1、设置淘宝镜像
 echo "Start to install taobao yuan"
